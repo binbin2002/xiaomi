@@ -1,0 +1,78 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+i {
+    font-family: "iconfont" !important;
+    font-style: normal;
+}
+
+/* 头部开始 */
+.header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.topBar{
+    width: 100%;
+    height: 120px;
+    background: url(../images/1-top/topBanner.jpg ) no-repeat center center;
+    cursor: pointer;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #d8c7c7;
+
+}
+.navCenter{
+    width: 1220px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+.navCenter ul span {
+    color: #424242;
+    margin: 0 0.5em;
+}
+
+.navCenter ul{
+    float: left;
+}
+.navCenter ul li{
+    display: inline-block;
+}
+.navCenter ul li a:hover,
+.navCenter .login .shoppingCart:hover{
+    color: white;
+
+}
+
+.navCenter .login{
+    float: right;
+}
+
+.navCenter .login .shoppingCart {
+    width: 120px;
+    margin-left: 30px;
+    display: inline-block;
+   
+}
+
+.navCenter .login .shoppingCart i {
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -2px;
+    margin-right: 4px;
+}
+
+/* 头部结束 */
